@@ -1,7 +1,9 @@
-# Welcome to your CDK TypeScript project!
+# Welcome to your CDK TypeScript Serverless Redirect Service!
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`ServerlessRedirectServiceStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+With this software you could easily build a redirect service, if you maybe bougth a new domain and want to redirect your traffic to this domain. 
+You could also personalize different source path to specific target or just forward the whole traffic to a main url.
+
+TBC
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
