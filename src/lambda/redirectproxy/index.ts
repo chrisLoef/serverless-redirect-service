@@ -1,8 +1,12 @@
 import type { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
+interface IRedirectRule {
+  source: string;
+  target: string;
+}
 
 const defaultTarget = 'https://loef.io';
 
-const redirectRules = [
+const redirectRules: IRedirectRule[] = [
   {
     source: '/yourPath',
     target: 'https://google.com',
